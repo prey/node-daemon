@@ -33,6 +33,10 @@
 	<key>ThrottleInterval</key>
 	<integer>{{ld_respawn_wait}}</integer>
 {{/ld_respawn_wait}}
+{{#start_interval}}
+	<key>StartInterval</key>
+	<integer>{{start_interval}}</integer>
+{{/start_interval}}
 {{#watch_paths}}
 	<key>WatchPaths</key>
 	<array>
